@@ -17,8 +17,17 @@ describe Rentals do
     it 'Should return the reserve of the string Maximum ' do
       expect(@solve.reverse('Maximum')).to eq 'mumixaM'
     end
-    it 'Should return  ' do
-      expect(@solve.fizzbuzz(3)).to eq 'mumixaM'
+    it 'Should return fizz since 3 is divisible by 3' do
+      expect(@solve.fizzbuzz(3)).to eq 'fizz'
+    end
+    it 'Should return buzz since 10 is divisible by 5' do
+      expect(@solve.fizzbuzz(10)).to eq 'buzz'
+    end
+    it 'Should return fizzbuzz since 15 is divisible by 5 and 3' do
+      expect(@solve.fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+    it 'Should return "7" since 7 is not divisible by 5 and 3' do
+      expect(@solve.fizzbuzz(7)).to eq '7'
     end
   end
 end
