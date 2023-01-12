@@ -17,5 +17,8 @@ describe Rentals do
     it 'Should return the reserve of the string Maximum ' do
       expect(@solve.reverse('Maximum')).to eq 'mumixaM'
     end
+    it 'Should return  ' do
+      expect(@solve.fizzbuzz(3)).to eq 'mumixaM'
+    end
   end
 end
