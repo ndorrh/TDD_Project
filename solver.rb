@@ -1,27 +1,27 @@
 class Solver
-  def factorial(n)
-    arr = (1..n).to_a
-    arr.reduce(1) { |fact, num| fact*num}
+  def factorial(num)
+    arr = (1..num).to_a
+    arr.reduce(1) { |fact, next_num| fact * next_num }
   end
 
   def reverse(string)
     arr = []
-    string.each_char{|char|
-    arr << char
-    }
-    arr.reverse().join('')
+    string.each_char do |char|
+      arr << char
+    end
+    arr.reverse.join
   end
 
-  def fizzbuzz(n)
-    if n%3 == 0 && n%5 != 0 
+  def fizzbuzz(num)
+    if (num % 3).zero? && num % 5 != 0
       'fizz'
-    elsif n%5 == 0 && n%3 != 0
+    elsif (n % 5).zero? && num % 3 != 0
       'buzz'
-    elsif n%3 == 0 && n%5 == 0 
+    elsif (num % 3).zero? && (num % 5).zero?
       'fizzbuzz'
     else
-      "#{n}"
-    end 
+      n.to_s
+    end
   end
 end
 

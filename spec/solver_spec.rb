@@ -9,7 +9,7 @@ describe Solver do
       expect(@solve.factorial(5)).to eq 120
     end
     it 'Should return the factorial of 10  equal 3628800' do
-      expect(@solve.factorial(10)).to eq 3628800
+      expect(@solve.factorial(10)).to eq 3_628_800
     end
     it 'Should return the reserve of the string   dance ' do
       expect(@solve.reverse('dance')).to eq 'ecnad'
