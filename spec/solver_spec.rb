@@ -11,6 +11,12 @@ describe Solver do
     it 'Should return the factorial of 10  equal 3628800' do
       expect(@solve.factorial(10)).to eq 3_628_800
     end
+    it 'Should return the factorial of negative number does not exist since -100 is negative' do
+      expect(@solve.factorial(-100)).to eq 'error'
+    end
+    it 'Should return the factorial of 1 equal 1' do
+      expect(@solve.factorial(-100)).to eq 'error'
+    end
     it 'Should return the reserve of the string   dance ' do
       expect(@solve.reverse('dance')).to eq 'ecnad'
     end
@@ -31,3 +37,4 @@ describe Solver do
     end
   end
 end
+
