@@ -2,22 +2,21 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 TDD\_Project ](#-tdd_project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -58,15 +57,17 @@ In order to run this project you need: Ruby and RSpec install on your local comp
 
 ### Setup
 
-Clone this repository to your desired folder.
+Clone this repository to your desired folder[TTD Project](https://github.com/ndorrh/TDD_Project.git).
 
 ### Usage
 
 This repository includes the rspec folder that has the test files and the Solver class file.
 
 ### Run tests
-
-In the terminal type rspec with the file name from the spec folder you wanna use.
+- run this command to install rspec: <code>gem install rspec</code>
+  
+-In the terminal type rspec with the file name from the spec folder you wanna use.
+Example of command to run the project: <code>rspec ./spec</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +110,7 @@ In the terminal type rspec with the file name from the spec folder you wanna use
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ndorrh/TDD_Project.git/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +139,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

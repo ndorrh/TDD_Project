@@ -1,7 +1,13 @@
 class Solver
   def factorial(num)
-    arr = (1..num).to_a
-    arr.reduce(1) { |fact, next_num| fact * next_num }
+    if num.zero?
+      1
+    elsif num.positive?
+      arr = (1..num).to_a
+      arr.reduce(1) { |fact, next_num| fact * next_num }
+    else
+      'error'
+    end
   end
 
   def reverse(string)
@@ -27,5 +33,5 @@ end
 
 solve = Solver.new
 # puts solve.reverse('Oswald')
-# puts solve.factorial(10)
-puts solve.fizzbuzz(12)
+puts solve.factorial(0)
+# puts solve.fizzbuzz(12)
